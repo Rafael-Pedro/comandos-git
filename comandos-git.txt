@@ -1,0 +1,55 @@
+Alguns comandos git:
+
+Definir o nome do usário - git config --global user.name "Name"
+
+Definir e-mail - git config --global user.email "e-mail"
+
+Definir editor principal do git - git config --global core.editor "editor"
+
+Limpar a tela - git clear
+
+Saber dado utilizado na configuração - git config "comando" (ex: git config "user.name")
+
+Lista de informações do git - git config --list
+
+Criar pasta no terminal - mkdir 'pasta'
+
+Entrar em uma pasta do terminal - cd 'pasta/'
+
+Inicializar o repositório - git init
+
+Listar diretórios? - ls -la
+
+Listar pastas e arquivos do diretório? - ls
+
+Voltar diretório - cd ..
+
+Criar/Editar texto do arquivo - 'editor arquivo.formato' (ex: vim Readme.md)
+
+Reportar o repositório - git status
+
+Adicionar arquivo no stage - git add 'arquivo'
+
+Comitar arquivo - git commit -m "Mensagem"
+
+git commit -am "Mensagem"
+
+Histórico de mudanças, atualizações, etc - git log
+
+git log --graph; git log --decorate; git log --author="Name"; git shortlog; git shortlog -sn; 
+
+Mostrar modificação antes de comitar - git diff
+
+git diff --name-only
+
+Resetar arquivo antes do stage - git checkout
+
+Remover (Voltar) arquivo adicionado ao stage - git reset HEAD 'arquivo'
+
+Voltar o arquivo do commit para o stage - git reset --soft 'código'(hash?)
+Voltar o arquivo do commit para o modified - git reset --mixed 'código'
+Voltar o arquivo do commit para o untracked - git reset --hard 'código'
+
+Enivar os dados do git para o github - git push 'repositório pasta'
+
+Clonar repositório g clone 'repositório novo-nome'
